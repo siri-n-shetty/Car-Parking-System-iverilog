@@ -1,0 +1,113 @@
+$date
+	Mon Nov 20 05:38:35 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_car_parking_system $end
+$var wire 8 ! parking_spaces [7:0] $end
+$var reg 1 " sensor1 $end
+$var reg 1 # sensor2 $end
+$var reg 1 $ sensor3 $end
+$var reg 1 % sensor4 $end
+$var reg 1 & sensor5 $end
+$var reg 1 ' sensor6 $end
+$var reg 1 ( sensor7 $end
+$var reg 1 ) sensor8 $end
+$scope module uut $end
+$var wire 8 * sensors [7:0] $end
+$var reg 8 + parking_spaces [7:0] $end
+$scope begin parking_space_logic[0] $end
+$var parameter 2 , i $end
+$upscope $end
+$scope begin parking_space_logic[1] $end
+$var parameter 2 - i $end
+$upscope $end
+$scope begin parking_space_logic[2] $end
+$var parameter 3 . i $end
+$upscope $end
+$scope begin parking_space_logic[3] $end
+$var parameter 3 / i $end
+$upscope $end
+$scope begin parking_space_logic[4] $end
+$var parameter 4 0 i $end
+$upscope $end
+$scope begin parking_space_logic[5] $end
+$var parameter 4 1 i $end
+$upscope $end
+$scope begin parking_space_logic[6] $end
+$var parameter 4 2 i $end
+$upscope $end
+$scope begin parking_space_logic[7] $end
+$var parameter 4 3 i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 3
+b110 2
+b101 1
+b100 0
+b11 /
+b10 .
+b1 -
+b0 ,
+$end
+#0
+$dumpvars
+bx +
+b0 *
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+bx !
+$end
+#10
+b10000000 *
+1"
+#20
+1#
+b1000000 *
+0"
+#30
+b11000000 *
+1"
+#40
+1)
+1(
+0#
+b11 *
+0"
+#50
+0)
+1&
+1$
+b10101010 *
+1"
+#60
+1)
+0(
+1'
+0&
+1%
+0$
+1#
+b1010101 *
+0"
+#70
+1(
+1&
+1$
+b11111111 *
+1"
+#80
